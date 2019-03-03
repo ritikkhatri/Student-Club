@@ -27,7 +27,58 @@
     font-size : 18px;
   }
 }
+.mobile{
+  display: none;
+}
+.desktop{
+  display: block
+}
+@media only screen and (max-width: 600px){
+  .desktop{
+    display: none
+  }
+  .mobile{
+    display: block;
+    background-color: #b4373d;
+    
+  }
+  .meet1{
+    color: white;
 
+  
+      text-align: center;
+       font-family: 'Average', serif; 
+       font-size: 2.5rem;
+    
+  
+  }
+  .member_photo{
+width: 100%;
+
+  }
+  .team_member{
+margin: 15px;
+background-color: white;
+border: gray 2px solid;
+  }
+  .nameofsecy{
+    background-color: #fdc03c;
+    font-size: 1.7em;
+    margin: 8px;
+text-align: center;
+  }
+  .secy_type{
+    text-align: center;
+    font-size: 1.7em;
+    color: black;
+
+  }
+  .fb{
+    width:55%;
+    float: center;
+    padding-bottom: 15px;
+  }
+}
 
 body {padding:0; margin:0}
 
